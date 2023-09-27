@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".NotificationActivity"
+    tools:ignore="ExtraText">
+
+    <!-- Replace with your arrow image -->
+    android:contentDescription="Back Button" <!-- Add a description for accessibility -->
+    android:background="?attr/selectableItemBackgroundBorderless" <!-- Add a ripple effect on click -->
+    android:layout_marginStart="16dp" <!-- Adjust margin as needed -->
+    android:layout_marginTop="16dp" <!-- Adjust margin as needed -->
+    android:onClick="onBackButtonClick" <!-- Optional: Specify a click handler method --><![CDATA[ />
+
+
+
+    ]]>
+
+    <TextView
+        android:id="@+id/notification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item out of Stock"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/back_button_description"
+        android:src="@drawable/baseline_arrow_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notification"
+        tools:ignore="TouchTargetSizeCheck,RedundantDescriptionCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
