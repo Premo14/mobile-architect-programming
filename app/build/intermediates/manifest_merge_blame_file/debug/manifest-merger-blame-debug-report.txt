@@ -1,0 +1,148 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.anthonypremo_inventoryapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+11-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:5:5-77
+11-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:5:22-74
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:37:5-38:40
+12-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:37:22-63
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:39:5-81
+13-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:39:22-78
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:40:5-68
+14-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:40:22-65
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:41:5-67
+15-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:41:22-64
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:42:5-79
+16-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:42:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:43:5-81
+17-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:43:22-78
+18    <uses-permission
+18-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:44:5-45:58
+19        android:name="android.permission.NEARBY_WIFI_DEVICES"
+19-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:44:22-75
+20        android:usesPermissionFlags="neverForLocation" />
+20-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:45:9-55
+21
+22    <permission
+22-->[androidx.core:core:1.9.0] /home/aj/.gradle/caches/transforms-3/ab80475af2f6748ede33dcc1d7c44185/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+23        android:name="com.example.anthonypremo_inventoryapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.9.0] /home/aj/.gradle/caches/transforms-3/ab80475af2f6748ede33dcc1d7c44185/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.9.0] /home/aj/.gradle/caches/transforms-3/ab80475af2f6748ede33dcc1d7c44185/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.example.anthonypremo_inventoryapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.9.0] /home/aj/.gradle/caches/transforms-3/ab80475af2f6748ede33dcc1d7c44185/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.9.0] /home/aj/.gradle/caches/transforms-3/ab80475af2f6748ede33dcc1d7c44185/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+27
+28    <application
+28-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:6:5-35:19
+29        android:allowBackup="true"
+29-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:7:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.9.0] /home/aj/.gradle/caches/transforms-3/ab80475af2f6748ede33dcc1d7c44185/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+31        android:dataExtractionRules="@xml/data_extraction_rules"
+31-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:8:9-65
+32        android:debuggable="true"
+33        android:extractNativeLibs="false"
+34        android:fullBackupContent="@xml/backup_rules"
+34-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:9:9-54
+35        android:icon="@mipmap/ic_launcher"
+35-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:10:9-43
+36        android:label="@string/app_name"
+36-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:11:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:12:9-54
+38        android:supportsRtl="true"
+38-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:13:9-35
+39        android:testOnly="true"
+40        android:theme="@style/Theme.AnthonyPremo_InventoryApp" >
+40-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:14:9-63
+41        <activity
+41-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:16:9-25:20
+42            android:name="com.example.anthonypremo_inventoryapp.MainActivity"
+42-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:17:13-41
+43            android:exported="true"
+43-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:18:13-36
+44            android:theme="@style/Theme.AnthonyPremo_InventoryApp" >
+44-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:19:13-67
+45            <intent-filter>
+45-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:20:13-24:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:21:17-69
+46-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:21:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:23:17-77
+48-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:23:27-74
+49            </intent-filter>
+50        </activity>
+51        <activity
+51-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:26:9-34:20
+52            android:name="com.example.anthonypremo_inventoryapp.LoginActivity"
+52-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:27:13-42
+53            android:exported="true"
+53-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:28:13-36
+54            android:theme="@style/Theme.AnthonyPremo_InventoryApp" >
+54-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:29:13-67
+55            <intent-filter>
+55-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:20:13-24:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:21:17-69
+56-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:21:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:23:17-77
+58-->/home/aj/AndroidStudioProjects/AnthonyPremo_InventoryApp/app/src/main/AndroidManifest.xml:23:27-74
+59            </intent-filter>
+60        </activity>
+61
+62        <provider
+62-->[androidx.emoji2:emoji2:1.2.0] /home/aj/.gradle/caches/transforms-3/58dace9c7703ce1d1a5fa78c07b1ccdd/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+63            android:name="androidx.startup.InitializationProvider"
+63-->[androidx.emoji2:emoji2:1.2.0] /home/aj/.gradle/caches/transforms-3/58dace9c7703ce1d1a5fa78c07b1ccdd/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+64            android:authorities="com.example.anthonypremo_inventoryapp.androidx-startup"
+64-->[androidx.emoji2:emoji2:1.2.0] /home/aj/.gradle/caches/transforms-3/58dace9c7703ce1d1a5fa78c07b1ccdd/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+65            android:exported="false" >
+65-->[androidx.emoji2:emoji2:1.2.0] /home/aj/.gradle/caches/transforms-3/58dace9c7703ce1d1a5fa78c07b1ccdd/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+66            <meta-data
+66-->[androidx.emoji2:emoji2:1.2.0] /home/aj/.gradle/caches/transforms-3/58dace9c7703ce1d1a5fa78c07b1ccdd/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+67-->[androidx.emoji2:emoji2:1.2.0] /home/aj/.gradle/caches/transforms-3/58dace9c7703ce1d1a5fa78c07b1ccdd/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+68                android:value="androidx.startup" />
+68-->[androidx.emoji2:emoji2:1.2.0] /home/aj/.gradle/caches/transforms-3/58dace9c7703ce1d1a5fa78c07b1ccdd/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/aj/.gradle/caches/transforms-3/e96a8fa6cb4c2ba95c23d2e19a47da1d/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+70-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/aj/.gradle/caches/transforms-3/e96a8fa6cb4c2ba95c23d2e19a47da1d/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+71                android:value="androidx.startup" />
+71-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/aj/.gradle/caches/transforms-3/e96a8fa6cb4c2ba95c23d2e19a47da1d/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+72        </provider>
+73
+74        <uses-library
+74-->[androidx.window:window:1.0.0] /home/aj/.gradle/caches/transforms-3/14cec7529c46e8adb1e53a772857464f/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+75            android:name="androidx.window.extensions"
+75-->[androidx.window:window:1.0.0] /home/aj/.gradle/caches/transforms-3/14cec7529c46e8adb1e53a772857464f/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+76            android:required="false" />
+76-->[androidx.window:window:1.0.0] /home/aj/.gradle/caches/transforms-3/14cec7529c46e8adb1e53a772857464f/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+77        <uses-library
+77-->[androidx.window:window:1.0.0] /home/aj/.gradle/caches/transforms-3/14cec7529c46e8adb1e53a772857464f/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+78            android:name="androidx.window.sidecar"
+78-->[androidx.window:window:1.0.0] /home/aj/.gradle/caches/transforms-3/14cec7529c46e8adb1e53a772857464f/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+79            android:required="false" />
+79-->[androidx.window:window:1.0.0] /home/aj/.gradle/caches/transforms-3/14cec7529c46e8adb1e53a772857464f/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+80    </application>
+81
+82</manifest>

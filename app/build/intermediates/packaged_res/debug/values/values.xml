@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="fab_margin">16dp</dimen>
+    <string name="AddItem">Add Item</string>
+    <string name="AddItemDialog">Add Item \n   Below</string>
+    <string name="AddOrRemove">Add/Remove Item</string>
+    <string name="CreateAccount">Login or Create Account</string>
+    <string name="CreateAccountBtn">Create Account</string>
+    <string name="Email">Email</string>
+    <string name="FirstName">First Name</string>
+    <string name="ItemName">Item Name</string>
+    <string name="ItemQuantity">Quantity</string>
+    <string name="LastName">Last Name</string>
+    <string name="Notifications">Notifications</string>
+    <string name="SignOut">Sign Out</string>
+    <string name="UpdateItem">Update Item</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_item">Add Item</string>
+    <string name="app_name">AnthonyPremo_InventoryApp</string>
+    <string name="back_button_description">Back Button</string>
+    <string name="create_account_button">Create Account</string>
+    <string name="enable_notifications">To enable notifications, grant SMS permission:</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="forgot_password_link"><i>Forgot Password?</i></string>
+    <string name="inventory_app_name">Inventory App</string>
+    <string name="inventory_items">Inventory Items</string>
+    <string name="login_button">Login</string>
+    <string name="lorem_ipsum"/>
+    <string name="next">Next</string>
+    <string name="password_hint"><i>Password</i></string>
+    <string name="previous">Previous</string>
+    <string name="remove_item">Remove Item</string>
+    <string name="request_permission">Request Permission</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="username_hint"><i>Username</i></string>
+    <style name="Base.Theme.AnthonyPremo_InventoryApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.AnthonyPremo_InventoryApp" parent="Base.Theme.AnthonyPremo_InventoryApp"/>
+</resources>
