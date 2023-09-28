@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.anthonypremo_inventoryapp-mergeDebugResources-39:/layout/activity_main.xml",
+        "source": "com.example.anthonypremo_inventoryapp-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.anthonypremo_inventoryapp-mergeDebugResources-39:/layout/activity_login.xml",
+        "source": "com.example.anthonypremo_inventoryapp-main-42:/layout/activity_login.xml"
+    }
+]

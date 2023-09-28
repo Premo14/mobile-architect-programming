@@ -68,7 +68,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         String queryString = "SELECT " + COLUMN_ACCOUNT_USERNAME + " FROM " + ACCOUNT_TABLE + " WHERE " + COLUMN_ACCOUNT_USERNAME + "=?";
         Cursor cursor = db.rawQuery(queryString, new String[]{accountModel.getUsername()});
 
-        Toast.makeText(context, "Error", Toast.LENGTH_SHORT).show();
         if (cursor.moveToFirst()) {
             Toast.makeText(context, "Account already exists.", Toast.LENGTH_SHORT).show();
             return false;
@@ -78,7 +77,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 cv.clear();
                 cursor.close();
                 db.close();
-                Toast.makeText(context, "Error", Toast.LENGTH_SHORT).show();
                 return false;
             } else {
                 Toast.makeText(context, "Created: " + accountModel, Toast.LENGTH_SHORT).show();

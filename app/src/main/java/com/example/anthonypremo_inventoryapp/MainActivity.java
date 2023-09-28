@@ -4,7 +4,6 @@ import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
-import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -121,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void checkItemStock(ItemModel currentItem) {
-        while (notiSwitch.isActivated()) {
+        if (notiSwitch.isChecked()) {
             if (currentItem.getQuantity() < 1) {
                 outOfStockNotification(currentItem);
             }
@@ -137,20 +136,12 @@ public class MainActivity extends AppCompatActivity {
                 .setAutoCancel(true)
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT);
 
-        Intent intent = new Intent(MainActivity.this, NotificationActivity.class);
-        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        intent.putExtra("outOfStockNotification", "Item out of stock");
-
-        PendingIntent pendingIntent = PendingIntent.getActivity(MainActivity.this, 0, intent, PendingIntent.FLAG_MUTABLE);
-
-        builder.setContentIntent(pendingIntent);
-
         NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
 
             NotificationChannel notificationChannel = notificationManager.getNotificationChannel(channelId);
             if (notificationChannel == null) {
                 int importance = NotificationManager.IMPORTANCE_HIGH;
-                notificationChannel = new NotificationChannel(channelId, "Item out of stock", importance);
+                notificationChannel = new NotificationChannel(channelId, itemModel.getName() + " is out of stock.", importance);
                 notificationChannel.setLightColor(Color.GREEN);
                 notificationChannel.enableVibration(true);
                 notificationManager.createNotificationChannel(notificationChannel);
